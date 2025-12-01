@@ -4,7 +4,7 @@ A collection of hands-on SOC Analyst projects including malware analysis, phishi
 
 ---
 
-## 👩🏾‍💻 About Me
+## 👩 About Me
 
 My name is **Olamide Ibijola**. I am a cybersecurity analyst focused on SOC operations, incident response, and threat detection. I hold **CompTIA Security+**, and I am preparing for **CySA+** while beginning the **Georgia Tech OMS Cybersecurity (Policy)** program.
 

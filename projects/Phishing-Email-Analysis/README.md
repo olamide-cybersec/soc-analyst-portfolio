@@ -32,6 +32,7 @@ https://microsoft-login-auth-verify.com/securelogin
 Full content is stored in: email-content.txt.
 
 3. Email Header Analysis
+
 3.1 Sender Domain Mismatch
 
 Displayed Sender:
@@ -117,6 +118,7 @@ Conclusion (URL Analysis):
 Malicious — Credential Harvesting / Fake Login Page
 
 5. Email Body & Social Engineering Analysis
+
 5.1 Urgency / Fear Tactics
 
 The email states:
@@ -179,6 +181,7 @@ Final Classification:
 🔴 Malicious — Credential Harvesting Phishing Email
 
 7. Recommended SOC Actions
+
 7.1 Immediate Actions
 
 Block sender domain:
@@ -197,11 +200,11 @@ Force password resets for impacted users
 
 Add these IOCs to your threat list:
 
-Type	Indicator
-URL	https://microsoft-login-auth-verify.com/securelogin
+Type	            Indicator
+URL	            https://microsoft-login-auth-verify.com/securelogin
+Domain	         microsoftsecureverify.com
+Sender          Email	security-alert@microsoftsecureverify.com
 
-Domain	microsoftsecureverify.com
-Sender Email	security-alert@microsoftsecureverify.com
 7.3 User Awareness
 
 Educate users to look for:

@@ -2,7 +2,6 @@
 
 This project contains a complete SOC-style investigation of a suspicious email pretending to be from Microsoft.
 The raw phishing email used for this analysis is available in:
-
 email-content.txt
 
 1. Executive Summary
@@ -12,15 +11,11 @@ The message uses urgency ("Your account will be locked in 24 hours") to trick th
 
 This README documents:
 
-Email header analysis
-
-Sender & domain reputation analysis
-
-URL analysis
-
-Social engineering assessment
-
-SOC recommendations
+- Email header analysis
+- Sender & domain reputation analysis
+- URL analysis
+- Social engineering assessment
+- SOC recommendations
 
 2. Source Email (What Was Investigated)
 

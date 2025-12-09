@@ -1,0 +1,42 @@
+From: "Microsoft Account Team" <security-alert@microsoftsecureverify.com>
+To: <victim@example.com>
+Subject: Action Required: Your Microsoft Account Will Be Locked in 24 Hours
+Date: Mon, 17 Nov 2025 09:22:11 +0000
+Message-ID: <20251117092211.46829@microsoftsecureverify.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+  <body style="font-family:Segoe UI, Arial, sans-serif; background-color:#f3f3f3; padding:20px;">
+    
+    <div style="max-width:600px; background:white; padding:20px; border-radius:6px; margin:auto;">
+
+      <h2 style="color:#0078D4;">Microsoft Account Security Alert</h2>
+
+      <p>Dear User,</p>
+
+      <p>We detected <strong>unusual sign-in activity</strong> from an unrecognized device.  
+      To protect your account, we will <strong>temporarily restrict access in 24 hours</strong> unless you verify your information.</p>
+
+      <p>Please confirm your identity immediately to avoid disruption.</p>
+
+      <p style="margin-top:25px;">
+        <a href="https://microsoft-login-auth-verify.com/securelogin" 
+           style="background-color:#0078D4; padding:12px 20px; color:white; 
+                  text-decoration:none; border-radius:4px; font-weight:bold;">
+          Verify Your Account
+        </a>
+      </p>
+
+      <p style="margin-top:20px; color:#666;">
+        If you do not complete verification, your account will be locked and all related services 
+        (Outlook, OneDrive, Teams) may be suspended.
+      </p>
+
+      <p style="margin-top:40px; color:#999; font-size:12px;">
+        © 2025 Microsoft Corporation. All rights reserved.  
+        This is an automated security message. Please do not reply.
+      </p>
+    </div>
+  </body>
+</html>

@@ -16,7 +16,7 @@ A user received an email with the subject:
 > **“Action Required: Your Microsoft Account Will Be Locked in 24 Hours”**
 
 The attacker impersonates Microsoft and uses urgency to trick the victim into clicking a fake verification link hosted on a malicious domain:
-https://microsoft-login-auth-verify.com/securelogin
+https://microsoft-login-verify-alert.net/securelogin
 
 
 ---
@@ -59,14 +59,14 @@ The sender is **spoofed** and the domain is **malicious**.
 # 🔗 3. URL Analysis
 
 The main malicious URL in the email is:
-https://microsoft-login-auth-verify.com/securelogin
+https://microsoft-login-verify-alert.net/securelogin
 
 
 ### **3.1 Domain Issues**
 This URL mimics the real Microsoft login page:
 
 - Real: `https://login.microsoftonline.com`
-- Fake: `https://microsoft-login-auth-verify.com`
+- Fake: `https://microsoft-login-verify-alert.net/securelogin`
 
 Attackers add terms like:
 
@@ -141,7 +141,7 @@ The email displays **multiple classic phishing signs** and attempts to imitate M
 | Type | Indicator |
 |------|-----------|
 | Sender Email | security-alert@microsoftsecureverify.com |
-| Malicious URL | https://microsoft-login-auth-verify.com/securelogin |
+| Malicious URL | https://microsoft-login-verify-alert.net/securelogin |
 | Domain | microsoftsecureverify.com |
 | Campaign Style | Microsoft account lockout phishing |
 | Attack Goal | Credential Harvesting |
